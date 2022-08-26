@@ -17,7 +17,7 @@ let socket;
 const Chat = () => {
   let location = useLocation();
 
-  const ENDPOINT = "localhost:5000";
+  const ENDPOINT = "https://chat-em-tempo-real.herokuapp.com/";
 
   const [name, setName] = useState("");
   const [room, setRoom] = useState("");
